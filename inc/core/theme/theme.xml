@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>TIDEngine Theme</name>
+    <version>1.0</version>
+    <designer>TIDEngine Development Team</designer>
+    <date>15.04.2013</date>
+    <admin>
+        <doctype>1</doctype>
+        <lang>en</lang>
+        <charset>utf-8</charset>
+        <meta>
+            <description>TIDEngine CMS System</description>
+            <author>TIDEngine Development Team</author>
+        </meta>
+        <css>
+            <file>inc/core/css_core/tidengine.css</file>
+        </css>
+        <js>
+            <file>inc/core/js_core/jquery-1.9.1.min.js</file>
+            <file>inc/core/js_core/jquery-ui-1.10.2.custom.min.js</file>
+            <file>inc/core/js_core/tidengine.js</file>
+        </js>
+        <elements>
+            <head>inc/core/theme/default/elements/head.tpl</head>
+            <footer>inc/core/theme/elements/elements/footer.tpl</footer>
+        </elements>
+    </admin>
+    <public>
+        <doctype>1</doctype>
+        <lang>en</lang>
+        <charset>utf-8</charset>
+        <base></base>
+        <meta>
+            <robots></robots>
+            <application-name></application-name>
+            <classification></classification>
+            <copyright></copyright>
+            <formatter></formatter>
+            <generator></generator>
+            <rating></rating>-->
+            <description>TIDEngine CMS System</description>
+            <author>TIDEngine Development Team</author>
+            <http_equiv></http_equiv>
+            <link_rel></link_rel>
+        </meta>
+        <css>
+            <file>inc/core/css_core/tidengine.css</file>
+        </css>
+        <js>
+            <file>inc/core/js_core/jquery-1.9.1.min.js</file>
+            <file>inc/core/js_core/jquery-ui-1.10.2.custom.min.js</file>
+            <file>inc/core/js_core/tidengine.js</file>
+        </js>
+        <elements>
+            <head>inc/core/theme/default/elements/head.tpl</head>
+            <footer>inc/core/theme/elements/elements/footer.tpl</footer>
+        </elements>
+    </public>
+</theme>

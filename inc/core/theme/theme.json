@@ -1,0 +1,47 @@
+{
+    "name":"TIDEngine Theme",
+    "version":"1.0",
+    "designer":"TIDEngine Development Team",
+    "date":"15.04.2013",
+    "admin":{
+        "meta_data":{
+            "doctype":"1",
+            "lang":"en",
+            "charset":"utf-8",
+            "http_equiv":{"X-UA-Compatible":"IE=edge,chrome=1"},
+            "meta":{
+                "description":"TIDEngine CMS System",
+                "author":"TIDEngine Development Team",
+                "viewport":"width=device-width"
+            }
+        },
+        "css":["inc\/vendor\/bootstrap\/css\/bootstrap.min.css" , "http://fonts.googleapis.com/css?family=Terminal+Dosis", "inc\/core\/css_core\/tidengine.css"],
+        "js":{
+            "head":["inc\/vendor\/jquery-1.9.1.min.js", "inc\/vendor\/jquery-migrate-1.1.0.min.js"],
+            "footer":["inc\/vendor\/jquery.form.js", "inc\/vendor\/jquery.ui.touch-punch.js","inc\/vendor\/bootstrap\/js\/bootstrap.min.js", "inc\/core\/js_core\/plugins.js", "inc\/core\/js_core\/tidengine.js"]
+        },
+        "elements":{
+            "head":"inc\/core\/theme\/elements\/head.tpl",
+            "footer":"inc\/core\/theme\/elements\/footer.tpl"
+        }
+    },
+    "public":{
+        "meta_data":{
+            "doctype":"1",
+            "lang":"en",
+            "charset":"utf-8",
+            "meta":{
+                "description":"TIDEngine CMS System",
+                "author":"TIDEngine Development Team"
+            }
+        },
+        "css":["inc\/core\/css_core\/tidengine.css"],
+          "js":{
+            "footer":["inc\/core\/js_core\/jquery-1.9.1.min.js",  "inc\/core\/js_core\/vendor\/jquery-ui-1.10.2.custom.min.js", "inc\/core\/js_core\/vendor\/jquery.ui.touch-punch.js", "inc\/core\/js_core\/plugins.js", "inc\/core\/js_core\/tidengine.js"]
+        },
+        "elements":{
+            "head":"inc\/core\/theme\/lements\/head.tpl",
+            "footer":"inc\/core\/theme\/elements\/footer.tpl"
+        }
+    }
+}

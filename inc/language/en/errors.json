@@ -1,0 +1,12 @@
+
+{
+    "0": "",
+    "100": "Page do not exists!",
+    "200": "Source Template do not exist!",
+    "201": "Problem creating cache file!",
+    "202": "PHP extension zlib is disabled, please enable it or set CACHE_GZIP to false in configuration.php.",
+    "203": "Default template head.tpl do not exist!",
+    "204": "Default template footer.tpl do not exist!",
+    "205": "PHP function <i><u> ::FUNCT::</u></i> is not supported!",
+    "206": "Data for shortcode <i><u> ::SHORTCODE::</u></i> is not defined. Can not procced!",
+}

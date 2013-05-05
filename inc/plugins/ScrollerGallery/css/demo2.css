@@ -1,0 +1,28 @@
+.demo2 {
+float:left;
+clear:both;
+width:1000px;
+height:300px;
+overflow:hidden;
+position:relative;
+}
+
+.demo2 .inside {
+position:absolute;
+top:50%;
+left:0;
+height:100px;
+margin-top:-50px;
+}
+
+.demo2 a {
+display:block;
+position:absolute;
+width:100px;
+height:100px;
+overflow:hidden;
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:100px;
+border:5px solid #fff;
+}

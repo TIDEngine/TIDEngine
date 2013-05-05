@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww28300\viewh14980\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 TIDEngine Template System \
+\
+Templating Instructions:\
+\
+Define Short Tag.\
+Case insensitive you must have defined array for this shortcode in $page_data. As string or array.\
+	$page_data['shortcode'] = 'Someone or me';\
+	$page_data['shortcode'] = array("Some data", "Some data");\
+\
+\
+
+\b\fs36 LISTS - calling list processing:
+\b0\fs28 \
+<ul>  - \{::list_ul.variable_name\}\
+<ol>  - \{::list_ol.variable_name\}\
+\
+You can have multiple nested lists like in example: \
+You can define shortcode with functionality when you define template variables:\
+\
+	    $page_data['\{::lists_ul.tete\}'] = array('link_1'=>'http://gaga.com', 'link_2'=>'http://gaga.com',                                                 // list elements with hyperlinks\
+						               'ul'=>array('pod1', 'test'=>'http://gaga.com',                                                                    //nested list  with hyperlinks\
+						               'ul'=>array('pod1', 'pod2')));                                                                                            //nested list without hyperlink\
+\
+\
+, anyway you can define short code inside your template:\
+	    $page_data['tete'] = array('link_1'=>'http://gaga.com', 'link_2'=>'http://gaga.com',                                                 // list elements with hyperlinks\
+						               'ul'=>array('pod1', 'test'=>'http://gaga.com',                                                    //nested list  with hyperlinks\
+						               'ul'=>array('pod1', 'pod2')));                                                                              //nested list without hyperlink\
+\
+In template add \{::lists_ul.tete\}.\
+\
+As you see you can use pure list elements or list elements with hyperlink\
+\
+
+\b\fs36 HEADINGS- calling list processing:\
+
+\b0\fs28 <h1> - \{::h_1.data\} - 2, 3, 4\
+\
+You can define shortcode with functionality when you define template variables:\
+'	$page_data['\{::h_1.data\}']=>'I am H1';\
+\
+, anyway you can define short code inside your template\
+	$page_data['data']=>'I am H1';\
+\
+In template add \{::h_1.data\}\
+\
+\
+\
+VIDEO\
+\
+\{::video.videos\}\
+\
+              $page_data['videos'] = array(\
+                    'width'=>'320',\
+                    'height'=>'240',\
+                    'src'=>'http://localhost/TIDEngine/movie.ogg',\
+                    'settings'=>'preload controls',\
+                    );}

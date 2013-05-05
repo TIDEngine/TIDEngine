@@ -1,0 +1,220 @@
+{
+    "admin":{
+        "structure": {
+            "link":"admin-structure",
+            "child":{
+                "pages":{
+                    "link":"admin-structure-pages"
+                },
+                "categories":{
+                    "link":"admin-structure-categories"
+                }
+            }
+        },
+        "content": {
+            "link":"admin-content",
+            "child":{
+                "news":{
+                    "link":"admin-content-news"
+                },
+                "comments":{
+                    "link":"admin-content-comments"
+                },
+                "downloads":{
+                    "link":"admin-content-downloads"
+                },
+                "blogs":{
+                    "link":"admin-content-blogs"
+                },
+                "tags":{
+                    "link":"admin-content-tags"
+                },
+                "links":{
+                    "link":"admin-content-links",
+                    "child":{
+                        "edit links": "admin-content-links-edit_links"
+                    }
+                },
+                "archives":{
+                    "link":"admin-content-archives"
+                },
+                "adverts":{
+                    "link":"admin-content-adverts"
+                }
+            }
+        },
+        "users": {
+            "link":"admin-users",
+            "child":{
+                "admins":{
+                    "link":"admin-users-admin"
+                },
+                "groups":{
+                    "link":"admin-users-groups"
+                },
+                "users":{
+                    "link":"admin-users-users"
+                }
+            }
+        },
+        "theme": {
+            "link":"admin-theme",
+            "child":{
+                "theme list": "admin-theme-theme_list",
+                "theme editor": "admin-theme-theme_editor",
+                "theme menus": "admin-theme-theme_menus",
+                "theme widgets": "admin-theme-theme_widgets",
+                "theme header": "admin-theme-theme_header",
+                "theme settings": "admin-theme-theme_settings"
+            }
+        },
+        "media": {
+            "link":"admin-media",
+             "child":{
+                    "files":"admin-media-files",
+                    "images":"admin-media-images"
+                }
+        },
+        "plugins": {
+            "link":"admin-plugins",
+            "child":{
+                "plugin manager": "admin-plugins-plugins_manager",
+                "plugin editor": "admin-plugins-plugin_editor",
+                "plugin installer": "admin-theme-plugin_installer"
+
+            }
+        },
+        "tools": {
+            "link":"admin-tools",
+            "child":{
+                "statistic": "admin-tools-statistic",
+                "sitemap generator": "admin-tools-sitemap",
+                "htaccess editor": "admin-tools-htaccess",
+                "robots editor": "admin-tools-robots",
+                "database": "admin-tools-database",
+                "backup": "admin-tools-backup",
+                "integrity": "admin-tools-integrity",
+                "cache": "admin-tools-cache",
+                "cleaner": "admin-tools-cleaner",
+                "logs": "admin-tools-logs",
+                "ip lookup": "admin-tools-ip",
+                "translator": "admin-tools-translator"
+            }
+        },
+        "settings": {
+            "link":"admin-settings",
+            "child":{
+                "general": "admin-settings-general_settings",
+                "front page": "admin-settings-front_page_settings",
+                "email": "admin-settings-email_settings",
+                "language": "admin-settings-language_settings",
+                "performance": "admin-settings-performance_settings",
+                "security": "admin-settings-security_settings",
+                "structure": "admin-settings-structure_settings",
+                "content": "admin-settings-content_settings",
+                "users": "admin-settings-users_settings",
+                "media": "admin-settings-media_settings"
+            }
+        }
+    },
+    "pages":{
+        "child":{
+            "pages list": "admin-structure-router-list_page",
+            "create page": "admin-structure-router-create_page",
+            "settings": "admin-structure-router-settings_page"
+        }
+    },
+    "categories":{
+        "child":{
+            "create category": "admin-structure-category-create_category",
+            "edit category": "admin-structure-category-edit_category",
+            "delete category": "admin-structure-category-delete_category",
+            "category list": "admin-structure-category-category_list",
+            "category settings": "admin-structure-category-category_settings"
+        }
+    },
+    "news":{
+        "child":{
+            "create news": "admin-content-news-create_news",
+            "edit news": "admin-content-news-edit_news",
+            "delete news": "admin-content-news-delete_news",
+            "edit comments": "admin-content-news-edit_comments"
+        }
+    },
+    "comments":{
+        "child":{
+            "edit comments": "admin-content-comments-edit_comments",
+            "delete comments": "admin-content-comments-delete_comments",
+            "approve comments": "admin-content-comments-approve_comments"
+        }
+    },
+    "downloads":{
+        "child":{
+            "downloads list": "admin-content-downloads-downloads_list",
+            "create download": "admin-content-downloads-create_download",
+            "edit download": "admin-content-downloads-edit_download",
+            "delete download": "admin-content-downloads-delete_download"
+        }
+    },
+    "blogs":{
+        "child":{
+            "create blog": "admin-content-blogs-create_blog",
+            "approve blog": "admin-content-blogs-approve_blog",
+            "blog list": "admin-content-blogs-blog_list",
+            "create atricle": "admin-content-blogs-create_blog_atricle",
+            "edit atricle": "admin-content-blogs-edit_blog_atricle",
+            "approve atricle": "admin-content-blogs-approve_blog_atricle",
+            "delete atricle": "admin-content-blogs-delete_blog_atricle"
+        }
+    },
+    "tags":{
+        "child":{
+            "edit tags": "admin-content-tags-edit_tags"
+        }
+    },
+    "links":{
+        "child":{
+            "edit links": "admin-content-links-edit_links"
+        }
+    },
+    "archives":{
+        "child":{
+            "edit archive": "admin-content-archives-edit_archive",
+            "delete archive": "admin-content-archives-delete_archive"
+        }
+    },
+    "adverts":{
+        "child":{
+            "create advert": "admin-content-advertisment-create_advert",
+            "edit advert": "admin-content-advertisment-edit_advert",
+            "delete advert": "admin-content-advertisment-delete_advert"
+        }
+    },
+    "admins":{
+        "link":"admin-users-admin",
+        "child":{
+            "admin profile": "admin-users-admin-admin_profile",
+            "admin password": "admin-users-admin-admin_password"
+        }
+    },
+    "groups":{
+        "link":"admin-users-groups",
+        "child":{
+            "create group": "admin-users-groups-create_group",
+            "edit group": "admin-users-groups-edit_group",
+            "delete group": "admin-users-groups-delete_group",
+            "group permitions": "admin-users-groups-group_permitions"
+        }
+    },
+    "users":{
+        "link":"admin-users-users",
+        "child":{
+            "create user": "admin-users-user-create_user",
+            "edit user": "admin-users-user-edit_user",
+            "delete user": "admin-users-user-delete_user",
+            "user list": "admin-users-user-user_list",
+            "ban user": "admin-users-user-ban_user",
+            "search user": "admin-users-user-search_user"
+        }
+    }
+}

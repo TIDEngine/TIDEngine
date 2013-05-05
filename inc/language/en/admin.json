@@ -1,0 +1,41 @@
+{
+    "admin":"Home",
+    "structure": "Pages and Categories Administration",
+    "content": "Site Content Administration",
+    "users": "Users Administration",
+    "theme": "Themes Management",
+    "media": "Media Management",
+    "plugins": "Plugins Administration",
+    "tools": "Administrator Tools",
+    "settings": "Site Settings",
+    "pages": "Site Pages Management",
+    "create_page":"Create Page",
+    "categories": "Site Categories Management",
+    "news": "Site News Management",
+    "comments": "Site Comments Management",
+    "downloads": "Site Downloads Management",
+    "blogs": "Site Blogs Administration",
+    "tags": "Site Tags Administaration",
+    "links": "Site Links Administaration",
+    "archives": "Site Archives Management",
+    "adverts": "Site Adverts Management",
+    "admins": "Site Admins",
+    "groups": "User Groups Management",
+    "users": "Users Management",
+    "files": "Files Management",
+    "images": "Images Management",
+    "menu_header": "Site Info:",
+    "copyright":"Copyright © 2013 TIDEngine Development Team",
+    "server":{
+        "php_version": "PHP Version:",
+        "apache_version": "Apache Version:",
+        "mysql_version": "Mysql Version:",
+        "host_os_paltform": "Operating System:",
+        "host_name": "Host Name:",
+        "site_data": {
+            "cms":"TIDEngine Version:",
+            "admin_theme":"Admin Theme:",
+            "theme":"Site Theme:"
+        }
+    }
+}
